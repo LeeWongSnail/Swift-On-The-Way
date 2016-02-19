@@ -49,9 +49,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if timer == nil {
-            addTimer()
-        }
     }
 }
 
