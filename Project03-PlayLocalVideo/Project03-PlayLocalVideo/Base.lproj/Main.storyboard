@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9Mi-so-Y3h">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Play Local Video-->
+        <scene sceneID="NIy-s1-prU">
+            <objects>
+                <tableViewController id="zYi-QN-PrX" customClass="VideoTableViewController" customModule="Project03_PlayLocalVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="69" sectionHeaderHeight="28" sectionFooterHeight="28" id="Uni-ZO-XNP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videocell" rowHeight="150" id="IVs-ZH-Ds8" customClass="VideoCell" customModule="Project03_PlayLocalVideo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IVs-ZH-Ds8" id="kXD-by-7cp">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AQz-1z-ANi">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgI-nU-hU2">
+                                            <rect key="frame" x="275" y="50" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="gxA-kE-J9y"/>
+                                                <constraint firstAttribute="width" constant="50" id="nRc-At-bwa"/>
+                                            </constraints>
+                                            <state key="normal" backgroundImage="playBtn"/>
+                                            <connections>
+                                                <action selector="videoPlayDidClick:" destination="IVs-ZH-Ds8" eventType="touchUpInside" id="WBJ-pe-Rub"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="AQz-1z-ANi" secondAttribute="bottom" id="1DK-rn-x0e"/>
+                                        <constraint firstAttribute="trailing" secondItem="AQz-1z-ANi" secondAttribute="trailing" id="EHy-i6-zea"/>
+                                        <constraint firstItem="AQz-1z-ANi" firstAttribute="leading" secondItem="kXD-by-7cp" secondAttribute="leading" id="Vbx-UQ-Isw"/>
+                                        <constraint firstItem="jgI-nU-hU2" firstAttribute="centerY" secondItem="kXD-by-7cp" secondAttribute="centerY" id="YZa-Ci-A4O"/>
+                                        <constraint firstItem="jgI-nU-hU2" firstAttribute="centerX" secondItem="kXD-by-7cp" secondAttribute="centerX" id="c7X-47-vHQ"/>
+                                        <constraint firstItem="AQz-1z-ANi" firstAttribute="top" secondItem="kXD-by-7cp" secondAttribute="top" id="jk3-BE-Ek9"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="videoBg" destination="AQz-1z-ANi" id="yAy-Hh-R0o"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zYi-QN-PrX" id="qFG-HU-oOL"/>
+                            <outlet property="delegate" destination="zYi-QN-PrX" id="4GY-l4-0LS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Play Local Video" id="Cso-JA-gjp">
+                        <barButtonItem key="backBarButtonItem" title="back" id="9AD-KK-aLd"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgb-Z5-77C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-650" y="250"/>
+        </scene>
+        <!--PlayLocalVideo-->
+        <scene sceneID="zYU-xD-mfg">
+            <objects>
+                <navigationController title="PlayLocalVideo" id="9Mi-so-Y3h" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" id="mPs-Zi-Pxc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zYi-QN-PrX" kind="relationship" relationship="rootViewController" id="of8-LV-QJX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vYI-VD-irN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1389" y="288"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+    </resources>
+</document>
