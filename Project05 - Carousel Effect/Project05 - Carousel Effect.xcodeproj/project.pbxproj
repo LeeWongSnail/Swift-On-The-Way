@@ -13,8 +13,9 @@
 		EB2EA6071C7C05950031EE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2EA6051C7C05950031EE05 /* LaunchScreen.storyboard */; };
 		EB2EA6121C7C05950031EE05 /* Project05___Carousel_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA6111C7C05950031EE05 /* Project05___Carousel_EffectTests.swift */; };
 		EB2EA61D1C7C05950031EE05 /* Project05___Carousel_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA61C1C7C05950031EE05 /* Project05___Carousel_EffectUITests.swift */; };
-		EB2EA62B1C7C08600031EE05 /* CarouselEffectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA62A1C7C08600031EE05 /* CarouselEffectController.swift */; };
 		EB2EA62D1C7C09400031EE05 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA62C1C7C09400031EE05 /* Interest.swift */; };
+		EB2EA62F1C7C267D0031EE05 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA62E1C7C267D0031EE05 /* CardCell.swift */; };
+		EB2EA6311C7C3A3E0031EE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2EA6301C7C3A3E0031EE05 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,9 @@
 		EB2EA6181C7C05950031EE05 /* Project05 - Carousel EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project05 - Carousel EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2EA61C1C7C05950031EE05 /* Project05___Carousel_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project05___Carousel_EffectUITests.swift"; sourceTree = "<group>"; };
 		EB2EA61E1C7C05950031EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB2EA62A1C7C08600031EE05 /* CarouselEffectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselEffectController.swift; sourceTree = "<group>"; };
 		EB2EA62C1C7C09400031EE05 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		EB2EA62E1C7C267D0031EE05 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		EB2EA6301C7C3A3E0031EE05 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,9 @@
 				EB2EA6031C7C05950031EE05 /* Assets.xcassets */,
 				EB2EA6051C7C05950031EE05 /* LaunchScreen.storyboard */,
 				EB2EA6081C7C05950031EE05 /* Info.plist */,
-				EB2EA62A1C7C08600031EE05 /* CarouselEffectController.swift */,
 				EB2EA62C1C7C09400031EE05 /* Interest.swift */,
+				EB2EA62E1C7C267D0031EE05 /* CardCell.swift */,
+				EB2EA6301C7C3A3E0031EE05 /* ViewController.swift */,
 			);
 			path = "Project05 - Carousel Effect";
 			sourceTree = "<group>";
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2EA6311C7C3A3E0031EE05 /* ViewController.swift in Sources */,
 				EB2EA62D1C7C09400031EE05 /* Interest.swift in Sources */,
-				EB2EA62B1C7C08600031EE05 /* CarouselEffectController.swift in Sources */,
 				EB2EA5FD1C7C05950031EE05 /* AppDelegate.swift in Sources */,
+				EB2EA62F1C7C267D0031EE05 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
