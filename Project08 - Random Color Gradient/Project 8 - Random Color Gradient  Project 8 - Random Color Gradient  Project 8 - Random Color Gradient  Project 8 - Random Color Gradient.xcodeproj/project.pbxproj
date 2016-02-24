@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA550001C7D7C3F00E0208F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA54FFF1C7D7C3F00E0208F /* AppDelegate.swift */; };
+		EBA550021C7D7C3F00E0208F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA550011C7D7C3F00E0208F /* ViewController.swift */; };
+		EBA550051C7D7C3F00E0208F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA550031C7D7C3F00E0208F /* Main.storyboard */; };
+		EBA550071C7D7C3F00E0208F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA550061C7D7C3F00E0208F /* Assets.xcassets */; };
+		EBA5500A1C7D7C3F00E0208F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA550081C7D7C3F00E0208F /* LaunchScreen.storyboard */; };
+		EBA550151C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA550141C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift */; };
+		EBA550201C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5501F1C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA550111C7D7C3F00E0208F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA54FF41C7D7C3F00E0208F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA54FFB1C7D7C3F00E0208F;
+			remoteInfo = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+		};
+		EBA5501C1C7D7C3F00E0208F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA54FF41C7D7C3F00E0208F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA54FFB1C7D7C3F00E0208F;
+			remoteInfo = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBA54FFC1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA54FFF1C7D7C3F00E0208F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBA550011C7D7C3F00E0208F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBA550041C7D7C3F00E0208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBA550061C7D7C3F00E0208F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBA550091C7D7C3F00E0208F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBA5500B1C7D7C3F00E0208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA550101C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA550141C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift"; sourceTree = "<group>"; };
+		EBA550161C7D7C3F00E0208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA5501B1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA5501F1C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift"; sourceTree = "<group>"; };
+		EBA550211C7D7C3F00E0208F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA54FF91C7D7C3F00E0208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5500D1C7D7C3F00E0208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA550181C7D7C3F00E0208F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA54FF31C7D7C3F00E0208F = {
+			isa = PBXGroup;
+			children = (
+				EBA54FFE1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */,
+				EBA550131C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests */,
+				EBA5501E1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests */,
+				EBA54FFD1C7D7C3F00E0208F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA54FFD1C7D7C3F00E0208F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA54FFC1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app */,
+				EBA550101C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests.xctest */,
+				EBA5501B1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA54FFE1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				EBA54FFF1C7D7C3F00E0208F /* AppDelegate.swift */,
+				EBA550011C7D7C3F00E0208F /* ViewController.swift */,
+				EBA550031C7D7C3F00E0208F /* Main.storyboard */,
+				EBA550061C7D7C3F00E0208F /* Assets.xcassets */,
+				EBA550081C7D7C3F00E0208F /* LaunchScreen.storyboard */,
+				EBA5500B1C7D7C3F00E0208F /* Info.plist */,
+			);
+			path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+			sourceTree = "<group>";
+		};
+		EBA550131C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA550141C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift */,
+				EBA550161C7D7C3F00E0208F /* Info.plist */,
+			);
+			path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests";
+			sourceTree = "<group>";
+		};
+		EBA5501E1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5501F1C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift */,
+				EBA550211C7D7C3F00E0208F /* Info.plist */,
+			);
+			path = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA54FFB1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA550241C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient" */;
+			buildPhases = (
+				EBA54FF81C7D7C3F00E0208F /* Sources */,
+				EBA54FF91C7D7C3F00E0208F /* Frameworks */,
+				EBA54FFA1C7D7C3F00E0208F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+			productName = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+			productReference = EBA54FFC1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBA5500F1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA550271C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests" */;
+			buildPhases = (
+				EBA5500C1C7D7C3F00E0208F /* Sources */,
+				EBA5500D1C7D7C3F00E0208F /* Frameworks */,
+				EBA5500E1C7D7C3F00E0208F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA550121C7D7C3F00E0208F /* PBXTargetDependency */,
+			);
+			name = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests";
+			productName = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests";
+			productReference = EBA550101C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBA5501A1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA5502A1C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests" */;
+			buildPhases = (
+				EBA550171C7D7C3F00E0208F /* Sources */,
+				EBA550181C7D7C3F00E0208F /* Frameworks */,
+				EBA550191C7D7C3F00E0208F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA5501D1C7D7C3F00E0208F /* PBXTargetDependency */,
+			);
+			name = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests";
+			productName = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests";
+			productReference = EBA5501B1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA54FF41C7D7C3F00E0208F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBA54FFB1C7D7C3F00E0208F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EBA5500F1C7D7C3F00E0208F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBA54FFB1C7D7C3F00E0208F;
+					};
+					EBA5501A1C7D7C3F00E0208F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBA54FFB1C7D7C3F00E0208F;
+					};
+				};
+			};
+			buildConfigurationList = EBA54FF71C7D7C3F00E0208F /* Build configuration list for PBXProject "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBA54FF31C7D7C3F00E0208F;
+			productRefGroup = EBA54FFD1C7D7C3F00E0208F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA54FFB1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */,
+				EBA5500F1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests */,
+				EBA5501A1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA54FFA1C7D7C3F00E0208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5500A1C7D7C3F00E0208F /* LaunchScreen.storyboard in Resources */,
+				EBA550071C7D7C3F00E0208F /* Assets.xcassets in Resources */,
+				EBA550051C7D7C3F00E0208F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5500E1C7D7C3F00E0208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA550191C7D7C3F00E0208F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA54FF81C7D7C3F00E0208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA550021C7D7C3F00E0208F /* ViewController.swift in Sources */,
+				EBA550001C7D7C3F00E0208F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA5500C1C7D7C3F00E0208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA550151C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA550171C7D7C3F00E0208F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA550201C7D7C3F00E0208F /* Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_Gradient__Project_8___Random_Color_GradientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA550121C7D7C3F00E0208F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA54FFB1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */;
+			targetProxy = EBA550111C7D7C3F00E0208F /* PBXContainerItemProxy */;
+		};
+		EBA5501D1C7D7C3F00E0208F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA54FFB1C7D7C3F00E0208F /* Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient */;
+			targetProxy = EBA5501C1C7D7C3F00E0208F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBA550031C7D7C3F00E0208F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA550041C7D7C3F00E0208F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBA550081C7D7C3F00E0208F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA550091C7D7C3F00E0208F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA550221C7D7C3F00E0208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBA550231C7D7C3F00E0208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBA550251C7D7C3F00E0208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-RandomColor-Gradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBA550261C7D7C3F00E0208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-RandomColor-Gradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBA550281C7D7C3F00E0208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-GradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app/Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+			};
+			name = Debug;
+		};
+		EBA550291C7D7C3F00E0208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-GradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient.app/Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+			};
+			name = Release;
+		};
+		EBA5502B1C7D7C3F00E0208F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-GradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBA5502C1C7D7C3F00E0208F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-Gradient--Project-8---Random-Color-GradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA54FF71C7D7C3F00E0208F /* Build configuration list for PBXProject "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA550221C7D7C3F00E0208F /* Debug */,
+				EBA550231C7D7C3F00E0208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA550241C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA550251C7D7C3F00E0208F /* Debug */,
+				EBA550261C7D7C3F00E0208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBA550271C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA550281C7D7C3F00E0208F /* Debug */,
+				EBA550291C7D7C3F00E0208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBA5502A1C7D7C3F00E0208F /* Build configuration list for PBXNativeTarget "Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color Gradient  Project 8 - Random Color GradientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA5502B1C7D7C3F00E0208F /* Debug */,
+				EBA5502C1C7D7C3F00E0208F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA54FF41C7D7C3F00E0208F /* Project object */;
+}
