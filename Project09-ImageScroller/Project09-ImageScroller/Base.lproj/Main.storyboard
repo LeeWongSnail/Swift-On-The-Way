@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project09_ImageScroller" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve" translatesAutoresizingMaskIntoConstraints="NO" id="XkX-QD-7Rz">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yBO-SI-Q7h">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="imu-3L-AW4">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XkX-QD-7Rz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Ng-vw-lNY"/>
+                            <constraint firstItem="yBO-SI-Q7h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Bbj-Oh-zTB"/>
+                            <constraint firstAttribute="trailing" secondItem="XkX-QD-7Rz" secondAttribute="trailing" id="GpL-qw-8xl"/>
+                            <constraint firstItem="yBO-SI-Q7h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="U0I-I5-Gxc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XkX-QD-7Rz" secondAttribute="bottom" id="aAJ-7b-bRg"/>
+                            <constraint firstAttribute="trailing" secondItem="yBO-SI-Q7h" secondAttribute="trailing" id="dw6-q1-Y4S"/>
+                            <constraint firstItem="XkX-QD-7Rz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iro-7W-v1d"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yBO-SI-Q7h" secondAttribute="bottom" id="yd7-k8-9Xc"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="steve" width="320" height="320"/>
+    </resources>
+</document>
