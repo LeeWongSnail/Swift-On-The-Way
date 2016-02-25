@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD4C8971C7E9EA50091A8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8961C7E9EA50091A8C4 /* AppDelegate.swift */; };
+		EBD4C8991C7E9EA50091A8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8981C7E9EA50091A8C4 /* ViewController.swift */; };
+		EBD4C89C1C7E9EA50091A8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C89A1C7E9EA50091A8C4 /* Main.storyboard */; };
+		EBD4C89E1C7E9EA50091A8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C89D1C7E9EA50091A8C4 /* Assets.xcassets */; };
+		EBD4C8A11C7E9EA50091A8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C89F1C7E9EA50091A8C4 /* LaunchScreen.storyboard */; };
+		EBD4C8AC1C7E9EA60091A8C4 /* SplashVideoBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8AB1C7E9EA60091A8C4 /* SplashVideoBackgroundTests.swift */; };
+		EBD4C8B71C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8B61C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.swift */; };
+		EBD4C8C51C7E9EED0091A8C4 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8C41C7E9EED0091A8C4 /* VideoSplashViewController.swift */; };
+		EBD4C8C91C7EA64A0091A8C4 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8C81C7EA64A0091A8C4 /* VideoCutter.swift */; };
+		EBD4C8CB1C7EB36C0091A8C4 /* VideoBak.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8CA1C7EB36C0091A8C4 /* VideoBak.swift */; };
+		EBD4C8CD1C7EB7470091A8C4 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C8CC1C7EB7470091A8C4 /* moments.mp4 */; };
+		EBD4C8CF1C7EB80B0091A8C4 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8CE1C7EB80B0091A8C4 /* ChildViewController.swift */; };
+		EBD4C8D11C7ED4690091A8C4 /* ImageScroller.gif in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C8D01C7ED4690091A8C4 /* ImageScroller.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD4C8A81C7E9EA60091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C88B1C7E9EA50091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C8921C7E9EA50091A8C4;
+			remoteInfo = SplashVideoBackground;
+		};
+		EBD4C8B31C7E9EA60091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C88B1C7E9EA50091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C8921C7E9EA50091A8C4;
+			remoteInfo = SplashVideoBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD4C8931C7E9EA50091A8C4 /* SplashVideoBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashVideoBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8961C7E9EA50091A8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD4C8981C7E9EA50091A8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD4C89B1C7E9EA50091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD4C89D1C7E9EA50091A8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD4C8A01C7E9EA50091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD4C8A21C7E9EA50091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C8A71C7E9EA60091A8C4 /* SplashVideoBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashVideoBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8AB1C7E9EA60091A8C4 /* SplashVideoBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVideoBackgroundTests.swift; sourceTree = "<group>"; };
+		EBD4C8AD1C7E9EA60091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C8B21C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashVideoBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8B61C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVideoBackgroundUITests.swift; sourceTree = "<group>"; };
+		EBD4C8B81C7E9EA60091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C8C41C7E9EED0091A8C4 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		EBD4C8C81C7EA64A0091A8C4 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		EBD4C8CA1C7EB36C0091A8C4 /* VideoBak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBak.swift; sourceTree = "<group>"; };
+		EBD4C8CC1C7EB7470091A8C4 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		EBD4C8CE1C7EB80B0091A8C4 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		EBD4C8D01C7ED4690091A8C4 /* ImageScroller.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ImageScroller.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD4C8901C7E9EA50091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8A41C7E9EA60091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8AF1C7E9EA60091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD4C88A1C7E9EA50091A8C4 = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8951C7E9EA50091A8C4 /* SplashVideoBackground */,
+				EBD4C8AA1C7E9EA60091A8C4 /* SplashVideoBackgroundTests */,
+				EBD4C8B51C7E9EA60091A8C4 /* SplashVideoBackgroundUITests */,
+				EBD4C8941C7E9EA50091A8C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD4C8941C7E9EA50091A8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8931C7E9EA50091A8C4 /* SplashVideoBackground.app */,
+				EBD4C8A71C7E9EA60091A8C4 /* SplashVideoBackgroundTests.xctest */,
+				EBD4C8B21C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD4C8951C7E9EA50091A8C4 /* SplashVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8CC1C7EB7470091A8C4 /* moments.mp4 */,
+				EBD4C8D01C7ED4690091A8C4 /* ImageScroller.gif */,
+				EBD4C8961C7E9EA50091A8C4 /* AppDelegate.swift */,
+				EBD4C8981C7E9EA50091A8C4 /* ViewController.swift */,
+				EBD4C89A1C7E9EA50091A8C4 /* Main.storyboard */,
+				EBD4C89D1C7E9EA50091A8C4 /* Assets.xcassets */,
+				EBD4C89F1C7E9EA50091A8C4 /* LaunchScreen.storyboard */,
+				EBD4C8A21C7E9EA50091A8C4 /* Info.plist */,
+				EBD4C8C41C7E9EED0091A8C4 /* VideoSplashViewController.swift */,
+				EBD4C8C81C7EA64A0091A8C4 /* VideoCutter.swift */,
+				EBD4C8CA1C7EB36C0091A8C4 /* VideoBak.swift */,
+				EBD4C8CE1C7EB80B0091A8C4 /* ChildViewController.swift */,
+			);
+			path = SplashVideoBackground;
+			sourceTree = "<group>";
+		};
+		EBD4C8AA1C7E9EA60091A8C4 /* SplashVideoBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8AB1C7E9EA60091A8C4 /* SplashVideoBackgroundTests.swift */,
+				EBD4C8AD1C7E9EA60091A8C4 /* Info.plist */,
+			);
+			path = SplashVideoBackgroundTests;
+			sourceTree = "<group>";
+		};
+		EBD4C8B51C7E9EA60091A8C4 /* SplashVideoBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8B61C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.swift */,
+				EBD4C8B81C7E9EA60091A8C4 /* Info.plist */,
+			);
+			path = SplashVideoBackgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD4C8921C7E9EA50091A8C4 /* SplashVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C8BB1C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackground" */;
+			buildPhases = (
+				EBD4C88F1C7E9EA50091A8C4 /* Sources */,
+				EBD4C8901C7E9EA50091A8C4 /* Frameworks */,
+				EBD4C8911C7E9EA50091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashVideoBackground;
+			productName = SplashVideoBackground;
+			productReference = EBD4C8931C7E9EA50091A8C4 /* SplashVideoBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD4C8A61C7E9EA60091A8C4 /* SplashVideoBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C8BE1C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackgroundTests" */;
+			buildPhases = (
+				EBD4C8A31C7E9EA60091A8C4 /* Sources */,
+				EBD4C8A41C7E9EA60091A8C4 /* Frameworks */,
+				EBD4C8A51C7E9EA60091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C8A91C7E9EA60091A8C4 /* PBXTargetDependency */,
+			);
+			name = SplashVideoBackgroundTests;
+			productName = SplashVideoBackgroundTests;
+			productReference = EBD4C8A71C7E9EA60091A8C4 /* SplashVideoBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD4C8B11C7E9EA60091A8C4 /* SplashVideoBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C8C11C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackgroundUITests" */;
+			buildPhases = (
+				EBD4C8AE1C7E9EA60091A8C4 /* Sources */,
+				EBD4C8AF1C7E9EA60091A8C4 /* Frameworks */,
+				EBD4C8B01C7E9EA60091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C8B41C7E9EA60091A8C4 /* PBXTargetDependency */,
+			);
+			name = SplashVideoBackgroundUITests;
+			productName = SplashVideoBackgroundUITests;
+			productReference = EBD4C8B21C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD4C88B1C7E9EA50091A8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBD4C8921C7E9EA50091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EBD4C8A61C7E9EA60091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C8921C7E9EA50091A8C4;
+					};
+					EBD4C8B11C7E9EA60091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C8921C7E9EA50091A8C4;
+					};
+				};
+			};
+			buildConfigurationList = EBD4C88E1C7E9EA50091A8C4 /* Build configuration list for PBXProject "SplashVideoBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD4C88A1C7E9EA50091A8C4;
+			productRefGroup = EBD4C8941C7E9EA50091A8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD4C8921C7E9EA50091A8C4 /* SplashVideoBackground */,
+				EBD4C8A61C7E9EA60091A8C4 /* SplashVideoBackgroundTests */,
+				EBD4C8B11C7E9EA60091A8C4 /* SplashVideoBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD4C8911C7E9EA50091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8A11C7E9EA50091A8C4 /* LaunchScreen.storyboard in Resources */,
+				EBD4C8CD1C7EB7470091A8C4 /* moments.mp4 in Resources */,
+				EBD4C8D11C7ED4690091A8C4 /* ImageScroller.gif in Resources */,
+				EBD4C89E1C7E9EA50091A8C4 /* Assets.xcassets in Resources */,
+				EBD4C89C1C7E9EA50091A8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8A51C7E9EA60091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8B01C7E9EA60091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD4C88F1C7E9EA50091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8991C7E9EA50091A8C4 /* ViewController.swift in Sources */,
+				EBD4C8CB1C7EB36C0091A8C4 /* VideoBak.swift in Sources */,
+				EBD4C8971C7E9EA50091A8C4 /* AppDelegate.swift in Sources */,
+				EBD4C8C91C7EA64A0091A8C4 /* VideoCutter.swift in Sources */,
+				EBD4C8C51C7E9EED0091A8C4 /* VideoSplashViewController.swift in Sources */,
+				EBD4C8CF1C7EB80B0091A8C4 /* ChildViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8A31C7E9EA60091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8AC1C7E9EA60091A8C4 /* SplashVideoBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8AE1C7E9EA60091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8B71C7E9EA60091A8C4 /* SplashVideoBackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD4C8A91C7E9EA60091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C8921C7E9EA50091A8C4 /* SplashVideoBackground */;
+			targetProxy = EBD4C8A81C7E9EA60091A8C4 /* PBXContainerItemProxy */;
+		};
+		EBD4C8B41C7E9EA60091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C8921C7E9EA50091A8C4 /* SplashVideoBackground */;
+			targetProxy = EBD4C8B31C7E9EA60091A8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD4C89A1C7E9EA50091A8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C89B1C7E9EA50091A8C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD4C89F1C7E9EA50091A8C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C8A01C7E9EA50091A8C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD4C8B91C7E9EA60091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD4C8BA1C7E9EA60091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD4C8BC1C7E9EA60091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashVideoBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD4C8BD1C7E9EA60091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashVideoBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD4C8BF1C7E9EA60091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashVideoBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashVideoBackground.app/SplashVideoBackground";
+			};
+			name = Debug;
+		};
+		EBD4C8C01C7E9EA60091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashVideoBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashVideoBackground.app/SplashVideoBackground";
+			};
+			name = Release;
+		};
+		EBD4C8C21C7E9EA60091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplashVideoBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashVideoBackground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBD4C8C31C7E9EA60091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplashVideoBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.SplashVideoBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashVideoBackground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD4C88E1C7E9EA50091A8C4 /* Build configuration list for PBXProject "SplashVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C8B91C7E9EA60091A8C4 /* Debug */,
+				EBD4C8BA1C7E9EA60091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD4C8BB1C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C8BC1C7E9EA60091A8C4 /* Debug */,
+				EBD4C8BD1C7E9EA60091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C8BE1C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C8BF1C7E9EA60091A8C4 /* Debug */,
+				EBD4C8C01C7E9EA60091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C8C11C7E9EA60091A8C4 /* Build configuration list for PBXNativeTarget "SplashVideoBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C8C21C7E9EA60091A8C4 /* Debug */,
+				EBD4C8C31C7E9EA60091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD4C88B1C7E9EA50091A8C4 /* Project object */;
+}
