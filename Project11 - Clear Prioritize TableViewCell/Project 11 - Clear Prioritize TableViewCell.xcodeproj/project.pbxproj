@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD4C8DF1C7ED9DA0091A8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8DE1C7ED9DA0091A8C4 /* AppDelegate.swift */; };
+		EBD4C8E11C7ED9DA0091A8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8E01C7ED9DA0091A8C4 /* ViewController.swift */; };
+		EBD4C8E41C7ED9DA0091A8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C8E21C7ED9DA0091A8C4 /* Main.storyboard */; };
+		EBD4C8E61C7ED9DA0091A8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C8E51C7ED9DA0091A8C4 /* Assets.xcassets */; };
+		EBD4C8E91C7ED9DA0091A8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C8E71C7ED9DA0091A8C4 /* LaunchScreen.storyboard */; };
+		EBD4C8F41C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8F31C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellTests.swift */; };
+		EBD4C8FF1C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C8FE1C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellUITests.swift */; };
+		EBD4C90D1C7EDD000091A8C4 /* ClearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C90C1C7EDD000091A8C4 /* ClearTableViewController.swift */; };
+		EBD4C90F1C7EDDAB0091A8C4 /* ClearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C90E1C7EDDAB0091A8C4 /* ClearCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD4C8F01C7ED9DA0091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C8D31C7ED9DA0091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C8DA1C7ED9DA0091A8C4;
+			remoteInfo = "Project 11 - Clear Prioritize TableViewCell";
+		};
+		EBD4C8FB1C7ED9DA0091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C8D31C7ED9DA0091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C8DA1C7ED9DA0091A8C4;
+			remoteInfo = "Project 11 - Clear Prioritize TableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD4C8DB1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 11 - Clear Prioritize TableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8DE1C7ED9DA0091A8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD4C8E01C7ED9DA0091A8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD4C8E31C7ED9DA0091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD4C8E51C7ED9DA0091A8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD4C8E81C7ED9DA0091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD4C8EA1C7ED9DA0091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C8EF1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 11 - Clear Prioritize TableViewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8F31C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_11___Clear_Prioritize_TableViewCellTests.swift"; sourceTree = "<group>"; };
+		EBD4C8F51C7ED9DA0091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C8FA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 11 - Clear Prioritize TableViewCellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C8FE1C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_11___Clear_Prioritize_TableViewCellUITests.swift"; sourceTree = "<group>"; };
+		EBD4C9001C7ED9DA0091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C90C1C7EDD000091A8C4 /* ClearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearTableViewController.swift; sourceTree = "<group>"; };
+		EBD4C90E1C7EDDAB0091A8C4 /* ClearCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD4C8D81C7ED9DA0091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8EC1C7ED9DA0091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8F71C7ED9DA0091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD4C8D21C7ED9DA0091A8C4 = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8DD1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */,
+				EBD4C8F21C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests */,
+				EBD4C8FD1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests */,
+				EBD4C8DC1C7ED9DA0091A8C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD4C8DC1C7ED9DA0091A8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8DB1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell.app */,
+				EBD4C8EF1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests.xctest */,
+				EBD4C8FA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD4C8DD1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8DE1C7ED9DA0091A8C4 /* AppDelegate.swift */,
+				EBD4C8E01C7ED9DA0091A8C4 /* ViewController.swift */,
+				EBD4C8E21C7ED9DA0091A8C4 /* Main.storyboard */,
+				EBD4C8E51C7ED9DA0091A8C4 /* Assets.xcassets */,
+				EBD4C8E71C7ED9DA0091A8C4 /* LaunchScreen.storyboard */,
+				EBD4C8EA1C7ED9DA0091A8C4 /* Info.plist */,
+				EBD4C90C1C7EDD000091A8C4 /* ClearTableViewController.swift */,
+				EBD4C90E1C7EDDAB0091A8C4 /* ClearCell.swift */,
+			);
+			path = "Project 11 - Clear Prioritize TableViewCell";
+			sourceTree = "<group>";
+		};
+		EBD4C8F21C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8F31C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellTests.swift */,
+				EBD4C8F51C7ED9DA0091A8C4 /* Info.plist */,
+			);
+			path = "Project 11 - Clear Prioritize TableViewCellTests";
+			sourceTree = "<group>";
+		};
+		EBD4C8FD1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C8FE1C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellUITests.swift */,
+				EBD4C9001C7ED9DA0091A8C4 /* Info.plist */,
+			);
+			path = "Project 11 - Clear Prioritize TableViewCellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD4C8DA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9031C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCell" */;
+			buildPhases = (
+				EBD4C8D71C7ED9DA0091A8C4 /* Sources */,
+				EBD4C8D81C7ED9DA0091A8C4 /* Frameworks */,
+				EBD4C8D91C7ED9DA0091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 11 - Clear Prioritize TableViewCell";
+			productName = "Project 11 - Clear Prioritize TableViewCell";
+			productReference = EBD4C8DB1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD4C8EE1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9061C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCellTests" */;
+			buildPhases = (
+				EBD4C8EB1C7ED9DA0091A8C4 /* Sources */,
+				EBD4C8EC1C7ED9DA0091A8C4 /* Frameworks */,
+				EBD4C8ED1C7ED9DA0091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C8F11C7ED9DA0091A8C4 /* PBXTargetDependency */,
+			);
+			name = "Project 11 - Clear Prioritize TableViewCellTests";
+			productName = "Project 11 - Clear Prioritize TableViewCellTests";
+			productReference = EBD4C8EF1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD4C8F91C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9091C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCellUITests" */;
+			buildPhases = (
+				EBD4C8F61C7ED9DA0091A8C4 /* Sources */,
+				EBD4C8F71C7ED9DA0091A8C4 /* Frameworks */,
+				EBD4C8F81C7ED9DA0091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C8FC1C7ED9DA0091A8C4 /* PBXTargetDependency */,
+			);
+			name = "Project 11 - Clear Prioritize TableViewCellUITests";
+			productName = "Project 11 - Clear Prioritize TableViewCellUITests";
+			productReference = EBD4C8FA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD4C8D31C7ED9DA0091A8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBD4C8DA1C7ED9DA0091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EBD4C8EE1C7ED9DA0091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C8DA1C7ED9DA0091A8C4;
+					};
+					EBD4C8F91C7ED9DA0091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C8DA1C7ED9DA0091A8C4;
+					};
+				};
+			};
+			buildConfigurationList = EBD4C8D61C7ED9DA0091A8C4 /* Build configuration list for PBXProject "Project 11 - Clear Prioritize TableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD4C8D21C7ED9DA0091A8C4;
+			productRefGroup = EBD4C8DC1C7ED9DA0091A8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD4C8DA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */,
+				EBD4C8EE1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellTests */,
+				EBD4C8F91C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD4C8D91C7ED9DA0091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8E91C7ED9DA0091A8C4 /* LaunchScreen.storyboard in Resources */,
+				EBD4C8E61C7ED9DA0091A8C4 /* Assets.xcassets in Resources */,
+				EBD4C8E41C7ED9DA0091A8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8ED1C7ED9DA0091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8F81C7ED9DA0091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD4C8D71C7ED9DA0091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8E11C7ED9DA0091A8C4 /* ViewController.swift in Sources */,
+				EBD4C90F1C7EDDAB0091A8C4 /* ClearCell.swift in Sources */,
+				EBD4C8DF1C7ED9DA0091A8C4 /* AppDelegate.swift in Sources */,
+				EBD4C90D1C7EDD000091A8C4 /* ClearTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8EB1C7ED9DA0091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8F41C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C8F61C7ED9DA0091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C8FF1C7ED9DA0091A8C4 /* Project_11___Clear_Prioritize_TableViewCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD4C8F11C7ED9DA0091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C8DA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */;
+			targetProxy = EBD4C8F01C7ED9DA0091A8C4 /* PBXContainerItemProxy */;
+		};
+		EBD4C8FC1C7ED9DA0091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C8DA1C7ED9DA0091A8C4 /* Project 11 - Clear Prioritize TableViewCell */;
+			targetProxy = EBD4C8FB1C7ED9DA0091A8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD4C8E21C7ED9DA0091A8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C8E31C7ED9DA0091A8C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD4C8E71C7ED9DA0091A8C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C8E81C7ED9DA0091A8C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD4C9011C7ED9DA0091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD4C9021C7ED9DA0091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD4C9041C7ED9DA0091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD4C9051C7ED9DA0091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD4C9071C7ED9DA0091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 11 - Clear Prioritize TableViewCell.app/Project 11 - Clear Prioritize TableViewCell";
+			};
+			name = Debug;
+		};
+		EBD4C9081C7ED9DA0091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 11 - Clear Prioritize TableViewCell.app/Project 11 - Clear Prioritize TableViewCell";
+			};
+			name = Release;
+		};
+		EBD4C90A1C7ED9DA0091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 11 - Clear Prioritize TableViewCell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBD4C90B1C7ED9DA0091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 11 - Clear Prioritize TableViewCellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project-11---Clear-Prioritize-TableViewCellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 11 - Clear Prioritize TableViewCell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD4C8D61C7ED9DA0091A8C4 /* Build configuration list for PBXProject "Project 11 - Clear Prioritize TableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9011C7ED9DA0091A8C4 /* Debug */,
+				EBD4C9021C7ED9DA0091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD4C9031C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9041C7ED9DA0091A8C4 /* Debug */,
+				EBD4C9051C7ED9DA0091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C9061C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9071C7ED9DA0091A8C4 /* Debug */,
+				EBD4C9081C7ED9DA0091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C9091C7ED9DA0091A8C4 /* Build configuration list for PBXNativeTarget "Project 11 - Clear Prioritize TableViewCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C90A1C7ED9DA0091A8C4 /* Debug */,
+				EBD4C90B1C7ED9DA0091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD4C8D31C7ED9DA0091A8C4 /* Project object */;
+}
