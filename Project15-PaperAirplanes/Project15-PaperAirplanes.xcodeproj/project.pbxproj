@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD4C9D51C8148660091A8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C9D41C8148660091A8C4 /* AppDelegate.swift */; };
+		EBD4C9D71C8148660091A8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C9D61C8148660091A8C4 /* ViewController.swift */; };
+		EBD4C9DA1C8148660091A8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C9D81C8148660091A8C4 /* Main.storyboard */; };
+		EBD4C9DC1C8148660091A8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C9DB1C8148660091A8C4 /* Assets.xcassets */; };
+		EBD4C9DF1C8148660091A8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD4C9DD1C8148660091A8C4 /* LaunchScreen.storyboard */; };
+		EBD4C9EA1C8148660091A8C4 /* Project15_PaperAirplanesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C9E91C8148660091A8C4 /* Project15_PaperAirplanesTests.swift */; };
+		EBD4C9F51C8148660091A8C4 /* Project15_PaperAirplanesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD4C9F41C8148660091A8C4 /* Project15_PaperAirplanesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD4C9E61C8148660091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C9C91C8148660091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C9D01C8148660091A8C4;
+			remoteInfo = "Project15-PaperAirplanes";
+		};
+		EBD4C9F11C8148660091A8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD4C9C91C8148660091A8C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4C9D01C8148660091A8C4;
+			remoteInfo = "Project15-PaperAirplanes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD4C9D11C8148660091A8C4 /* Project15-PaperAirplanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project15-PaperAirplanes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C9D41C8148660091A8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD4C9D61C8148660091A8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD4C9D91C8148660091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD4C9DB1C8148660091A8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD4C9DE1C8148660091A8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD4C9E01C8148660091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C9E51C8148660091A8C4 /* Project15-PaperAirplanesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project15-PaperAirplanesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C9E91C8148660091A8C4 /* Project15_PaperAirplanesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15_PaperAirplanesTests.swift; sourceTree = "<group>"; };
+		EBD4C9EB1C8148660091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD4C9F01C8148660091A8C4 /* Project15-PaperAirplanesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project15-PaperAirplanesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD4C9F41C8148660091A8C4 /* Project15_PaperAirplanesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project15_PaperAirplanesUITests.swift; sourceTree = "<group>"; };
+		EBD4C9F61C8148660091A8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD4C9CE1C8148660091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9E21C8148660091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9ED1C8148660091A8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD4C9C81C8148660091A8C4 = {
+			isa = PBXGroup;
+			children = (
+				EBD4C9D31C8148660091A8C4 /* Project15-PaperAirplanes */,
+				EBD4C9E81C8148660091A8C4 /* Project15-PaperAirplanesTests */,
+				EBD4C9F31C8148660091A8C4 /* Project15-PaperAirplanesUITests */,
+				EBD4C9D21C8148660091A8C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD4C9D21C8148660091A8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C9D11C8148660091A8C4 /* Project15-PaperAirplanes.app */,
+				EBD4C9E51C8148660091A8C4 /* Project15-PaperAirplanesTests.xctest */,
+				EBD4C9F01C8148660091A8C4 /* Project15-PaperAirplanesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD4C9D31C8148660091A8C4 /* Project15-PaperAirplanes */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C9D41C8148660091A8C4 /* AppDelegate.swift */,
+				EBD4C9D61C8148660091A8C4 /* ViewController.swift */,
+				EBD4C9D81C8148660091A8C4 /* Main.storyboard */,
+				EBD4C9DB1C8148660091A8C4 /* Assets.xcassets */,
+				EBD4C9DD1C8148660091A8C4 /* LaunchScreen.storyboard */,
+				EBD4C9E01C8148660091A8C4 /* Info.plist */,
+			);
+			path = "Project15-PaperAirplanes";
+			sourceTree = "<group>";
+		};
+		EBD4C9E81C8148660091A8C4 /* Project15-PaperAirplanesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C9E91C8148660091A8C4 /* Project15_PaperAirplanesTests.swift */,
+				EBD4C9EB1C8148660091A8C4 /* Info.plist */,
+			);
+			path = "Project15-PaperAirplanesTests";
+			sourceTree = "<group>";
+		};
+		EBD4C9F31C8148660091A8C4 /* Project15-PaperAirplanesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD4C9F41C8148660091A8C4 /* Project15_PaperAirplanesUITests.swift */,
+				EBD4C9F61C8148660091A8C4 /* Info.plist */,
+			);
+			path = "Project15-PaperAirplanesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD4C9D01C8148660091A8C4 /* Project15-PaperAirplanes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9F91C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanes" */;
+			buildPhases = (
+				EBD4C9CD1C8148660091A8C4 /* Sources */,
+				EBD4C9CE1C8148660091A8C4 /* Frameworks */,
+				EBD4C9CF1C8148660091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project15-PaperAirplanes";
+			productName = "Project15-PaperAirplanes";
+			productReference = EBD4C9D11C8148660091A8C4 /* Project15-PaperAirplanes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD4C9E41C8148660091A8C4 /* Project15-PaperAirplanesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9FC1C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanesTests" */;
+			buildPhases = (
+				EBD4C9E11C8148660091A8C4 /* Sources */,
+				EBD4C9E21C8148660091A8C4 /* Frameworks */,
+				EBD4C9E31C8148660091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C9E71C8148660091A8C4 /* PBXTargetDependency */,
+			);
+			name = "Project15-PaperAirplanesTests";
+			productName = "Project15-PaperAirplanesTests";
+			productReference = EBD4C9E51C8148660091A8C4 /* Project15-PaperAirplanesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD4C9EF1C8148660091A8C4 /* Project15-PaperAirplanesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD4C9FF1C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanesUITests" */;
+			buildPhases = (
+				EBD4C9EC1C8148660091A8C4 /* Sources */,
+				EBD4C9ED1C8148660091A8C4 /* Frameworks */,
+				EBD4C9EE1C8148660091A8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD4C9F21C8148660091A8C4 /* PBXTargetDependency */,
+			);
+			name = "Project15-PaperAirplanesUITests";
+			productName = "Project15-PaperAirplanesUITests";
+			productReference = EBD4C9F01C8148660091A8C4 /* Project15-PaperAirplanesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD4C9C91C8148660091A8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBD4C9D01C8148660091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EBD4C9E41C8148660091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C9D01C8148660091A8C4;
+					};
+					EBD4C9EF1C8148660091A8C4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EBD4C9D01C8148660091A8C4;
+					};
+				};
+			};
+			buildConfigurationList = EBD4C9CC1C8148660091A8C4 /* Build configuration list for PBXProject "Project15-PaperAirplanes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD4C9C81C8148660091A8C4;
+			productRefGroup = EBD4C9D21C8148660091A8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD4C9D01C8148660091A8C4 /* Project15-PaperAirplanes */,
+				EBD4C9E41C8148660091A8C4 /* Project15-PaperAirplanesTests */,
+				EBD4C9EF1C8148660091A8C4 /* Project15-PaperAirplanesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD4C9CF1C8148660091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C9DF1C8148660091A8C4 /* LaunchScreen.storyboard in Resources */,
+				EBD4C9DC1C8148660091A8C4 /* Assets.xcassets in Resources */,
+				EBD4C9DA1C8148660091A8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9E31C8148660091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9EE1C8148660091A8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD4C9CD1C8148660091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C9D71C8148660091A8C4 /* ViewController.swift in Sources */,
+				EBD4C9D51C8148660091A8C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9E11C8148660091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C9EA1C8148660091A8C4 /* Project15_PaperAirplanesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD4C9EC1C8148660091A8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4C9F51C8148660091A8C4 /* Project15_PaperAirplanesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD4C9E71C8148660091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C9D01C8148660091A8C4 /* Project15-PaperAirplanes */;
+			targetProxy = EBD4C9E61C8148660091A8C4 /* PBXContainerItemProxy */;
+		};
+		EBD4C9F21C8148660091A8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD4C9D01C8148660091A8C4 /* Project15-PaperAirplanes */;
+			targetProxy = EBD4C9F11C8148660091A8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD4C9D81C8148660091A8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C9D91C8148660091A8C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD4C9DD1C8148660091A8C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD4C9DE1C8148660091A8C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD4C9F71C8148660091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD4C9F81C8148660091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD4C9FA1C8148660091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project15-PaperAirplanes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD4C9FB1C8148660091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project15-PaperAirplanes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD4C9FD1C8148660091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project15-PaperAirplanesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project15-PaperAirplanes.app/Project15-PaperAirplanes";
+			};
+			name = Debug;
+		};
+		EBD4C9FE1C8148660091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project15-PaperAirplanesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project15-PaperAirplanes.app/Project15-PaperAirplanes";
+			};
+			name = Release;
+		};
+		EBD4CA001C8148660091A8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project15-PaperAirplanesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project15-PaperAirplanes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBD4CA011C8148660091A8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project15-PaperAirplanesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meishubao.Project15-PaperAirplanesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project15-PaperAirplanes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD4C9CC1C8148660091A8C4 /* Build configuration list for PBXProject "Project15-PaperAirplanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9F71C8148660091A8C4 /* Debug */,
+				EBD4C9F81C8148660091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD4C9F91C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9FA1C8148660091A8C4 /* Debug */,
+				EBD4C9FB1C8148660091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C9FC1C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4C9FD1C8148660091A8C4 /* Debug */,
+				EBD4C9FE1C8148660091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD4C9FF1C8148660091A8C4 /* Build configuration list for PBXNativeTarget "Project15-PaperAirplanesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD4CA001C8148660091A8C4 /* Debug */,
+				EBD4CA011C8148660091A8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD4C9C91C8148660091A8C4 /* Project object */;
+}
