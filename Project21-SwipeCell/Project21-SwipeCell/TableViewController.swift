@@ -82,7 +82,11 @@ class TableViewController: UITableViewController {
         delete.backgroundColor = UIColor.grayColor()
         
         let share = UITableViewRowAction(style: .Normal, title: "Share") { (action, indexPath) -> Void in
-            print("press \(action.title) at \(indexPath.row)")
+            let firstActivityItem = self.data[indexPath.row]
+            
+            let activityViewController = UIActivityViewController(activityItems: [firstActivityItem.image as NSString], applicationActivities: nil)
+            
+            self.presentViewController(activityViewController, animated: true, completion: nil)
         }
         
         share.backgroundColor = UIColor.redColor()
