@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimationCell" customModule="Project20_CollectionViewAnimation" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AnimationCell" customModule="Project20_CollectionViewAnimation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ETa-tS-tqO">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Rrq-6w-WLn"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-YF-WxS">
+                    <rect key="frame" x="10" y="128" width="580" height="72"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="83G-Mc-ylT"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="83G-Mc-ylT"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5F-1t-SQg">
+                    <rect key="frame" x="8" y="20" width="14" height="24"/>
+                    <color key="backgroundColor" red="1" green="0.931932749" blue="0.1238704209" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="EdP-5L-Dgc"/>
+                        <constraint firstAttribute="width" constant="14" id="vnF-IC-REu"/>
+                    </constraints>
+                    <state key="normal" image="Back-icon"/>
+                    <connections>
+                        <action selector="btnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="e6S-bf-CO3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ETa-tS-tqO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AFa-UF-vHk"/>
+                <constraint firstAttribute="bottom" secondItem="Z6m-YF-WxS" secondAttribute="bottom" id="F9i-dX-c9h"/>
+                <constraint firstAttribute="trailing" secondItem="ETa-tS-tqO" secondAttribute="trailing" id="GV8-6b-2Tf"/>
+                <constraint firstAttribute="trailing" secondItem="Z6m-YF-WxS" secondAttribute="trailing" constant="10" id="WB6-ZF-sE4"/>
+                <constraint firstItem="ETa-tS-tqO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hX8-2g-7rk"/>
+                <constraint firstItem="l5F-1t-SQg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="hf0-0o-qYy"/>
+                <constraint firstItem="Z6m-YF-WxS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="liW-ns-3Ow"/>
+                <constraint firstItem="l5F-1t-SQg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="pkB-EG-wMp"/>
+                <constraint firstItem="Z6m-YF-WxS" firstAttribute="top" secondItem="ETa-tS-tqO" secondAttribute="bottom" id="t37-pX-QZ2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backBtn" destination="l5F-1t-SQg" id="J5Y-gy-KLi"/>
+                <outlet property="iconImageV" destination="ETa-tS-tqO" id="Jhs-nm-DGf"/>
+                <outlet property="textView" destination="Z6m-YF-WxS" id="hov-51-2Av"/>
+            </connections>
+            <point key="canvasLocation" x="153" y="296"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Back-icon" width="14" height="24"/>
+    </resources>
+</document>
